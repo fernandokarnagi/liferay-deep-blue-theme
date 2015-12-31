@@ -15,7 +15,14 @@
 				value="true" />
 			<setting configurable="true" key="poweredby" type="textarea"
 				value="CTC Global" />
-
+			<setting configurable="true" key="portlet-setup-show-borders-default"
+				type="checkbox" value="false" />
+			<setting configurable="true" key="bullet-style" options="arrows,dots,classic,modern"
+				value="dots" />
+			<setting configurable="true" key="show-site-name-default"
+				type="checkbox" value="true" />
+			<setting configurable="true" key="show-site-name-supported"
+				type="checkbox" value="true" />
 		</settings>
 
 		<color-scheme id="01" name="Day">
