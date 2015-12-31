@@ -72,9 +72,10 @@ $theme.include($body_top_include)
 	</div>
 
 	<footer id="footer" role="contentinfo">
-		#if($theme.getSetting("footer") == true)
+		#if($theme.getSetting("footer") == true)  
 			<p class="powered-by">
-				#language ("powered-by") <a href="http://www.liferay.com" rel="external">Liferay</a>
+				#language ("powered-by") $theme.getSetting("poweredby")
+				
 			</p>
 		#end
 	</footer>
