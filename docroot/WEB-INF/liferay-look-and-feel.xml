@@ -5,5 +5,24 @@
 	<compatibility>
 		<version>6.2.4+</version>
 	</compatibility>
-	<theme id="liferay-deep-blue" name="Liferay Deep Blue" />
+	<theme id="liferay-deep-blue" name="Liferay Deep Blue">
+		<settings>
+			<setting configurable="true"
+		             key="header"
+		             type="checkbox"
+		             value="true"
+		    />
+			<setting configurable="true"
+		             key="footer"
+		             type="checkbox"
+		             value="true"
+		    />
+		    <setting configurable="true"
+		             key="breadcrumb"
+		             type="checkbox"
+		             value="true"
+		    />
+		    
+		</settings>
+	</theme>
 </look-and-feel>
