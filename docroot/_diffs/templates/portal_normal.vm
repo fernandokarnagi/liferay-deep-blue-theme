@@ -85,6 +85,17 @@ $theme.include($body_bottom_include)
 
 $theme.include($bottom_include)
 
+<!--
+$request<br/>
+$themeDisplay<br/>
+$company<br/>
+$layout<br/>
+$theme<br/>
+$colorScheme<br/>	
+$portletDisplay<br/>
+-->
+
+
 </body>
 
 </html>
