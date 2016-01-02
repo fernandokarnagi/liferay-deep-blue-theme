@@ -9,6 +9,8 @@
 		<settings>
 			<setting configurable="true" key="header" type="checkbox"
 				value="true" />
+			<setting configurable="true" key="docbar" type="checkbox"
+				value="true" />
 			<setting configurable="true" key="footer" type="checkbox"
 				value="true" />
 			<setting configurable="true" key="breadcrumb" type="checkbox"
